@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gitbreaker222/Liederbuch/issues"
   },
-  "homepage": "https://github.com/gitbreaker222/Liederbuch#readme"
+  "homepage": "https://github.com/gitbreaker222/Liederbuch#readme",
+  "dependencies": {
+    "marked": "^0.6.2"
+  }
 }
