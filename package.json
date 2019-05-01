@@ -1,0 +1,19 @@
+{
+  "name": "liederbuch",
+  "version": "1.0.0",
+  "description": "songbook",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitbreaker222/Liederbuch.git"
+  },
+  "author": "gitbreaker222",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitbreaker222/Liederbuch/issues"
+  },
+  "homepage": "https://github.com/gitbreaker222/Liederbuch#readme"
+}
