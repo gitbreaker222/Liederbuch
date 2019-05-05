@@ -2,8 +2,9 @@
   "name": "liederbuch",
   "version": "1.0.0",
   "description": "songbook",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
+    "start": "make build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/gitbreaker222/Liederbuch#readme",
   "dependencies": {
-    "marked": "^0.6.2"
+    "marked": "^0.6.2",
+    "metalsmith": "^2.3.0",
+    "metalsmith-markdown": "^1.2.0",
+    "metalsmith-watch": "^1.0.3"
   }
 }
