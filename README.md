@@ -14,7 +14,7 @@ open `build/index.html` directly in your browser (serverless).
 - Put a Markdown file inside `src/content`
 - Reference to it in `src/index.html` with a `data-lyrics` prop
 - The link **must** be relative to `index.html`
-- The link **must not** have a file extension
+- The link *can skip* the file extension
 
 Example:
 
@@ -23,6 +23,12 @@ Example:
 
 ```html
 <div data-lyrics="content/black moth cult/redwitch">
+```
+
+or
+
+```html
+<div data-lyrics="content/black moth cult/redwitch.md">
 ```
 
 # Generate PDF for printing
